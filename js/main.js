@@ -907,14 +907,14 @@ form.addEventListener("submit", handleSubmit);
 
 const projectData = [
   {
-    title: "PassGen",
+    title: "StyleUp-AI",
     subTitle:
-      "You can easily generate secure and random passwords using this simple tool.",
-    thumbnail: "../img/projects-default.jpg",
+      "StyleUp-AI is an AI-powered fashion recommendation system that helps users discover new styles and trends. It uses Gemini API as the backend and provides personalized recommendations based on user preferences.",
+    thumbnail: "styleup.png",
     description:
-      "PassGen is a Python CLI tool for generating secure, random passwords from the command line. It allows you to easily create strong and unique passwords for your accounts, with a variety of customization options. Simply enter a few commands and PassGen will do the rest, providing you with a secure password to use with confidence. Fast and efficient, PassGen is the perfect tool for anyone who needs to generate passwords on the fly.",
-    techStack: ["Python"],
-    srcURL: "https://github.com/LakshanRukantha/PassGen",
+      "StyleUp-AI is an AI-powered fashion recommendation system that helps users discover new styles and trends. It uses Gemini API as the backend and provides personalized recommendations based on user preferences. The app uses advanced machine learning algorithms to analyze user data and provide them with tailored recommendations for clothing, accessories, and footwear. StyleUp-AI is designed to help users stay up-to-date with the latest fashion trends and make informed decisions about their wardrobe.",
+    techStack: ["React", "Node.js", "Express", "Google Generative AI", "API", "React Headless UI", "Tailwind CSS"],
+    srcURL: "https://styleup-ai.onrender.com/",
   },
   {
     title: "CutLink",
