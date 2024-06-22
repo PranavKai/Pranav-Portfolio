@@ -910,7 +910,7 @@ const projectData = [
     title: "StyleUp-AI",
     subTitle:
       "StyleUp-AI is an AI-powered fashion recommendation system that helps users discover new styles and trends. It uses Gemini API as the backend and provides personalized recommendations based on user preferences.",
-    thumbnail: "styleup.png",
+    thumbnail: "../img/thumbnails/styleup.png",
     description:
       "StyleUp-AI is an AI-powered fashion recommendation system that helps users discover new styles and trends. It uses Gemini API as the backend and provides personalized recommendations based on user preferences. The app uses advanced machine learning algorithms to analyze user data and provide them with tailored recommendations for clothing, accessories, and footwear. StyleUp-AI is designed to help users stay up-to-date with the latest fashion trends and make informed decisions about their wardrobe.",
     techStack: ["React", "Node.js", "Express", "Google Generative AI", "API", "React Headless UI", "Tailwind CSS"],
