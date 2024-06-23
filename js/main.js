@@ -923,7 +923,7 @@ const projectData = [
     description:
       "CutLink is a modern and user-friendly web application built with React and Material UI. Our platform offers a complete solution for link shortening. With CutLink, you can create short, branded links that are easy to share. Try CutLink today and experience the power of a smarter link shortning platform!",
     techStack: ["React", "MUI"],
-    srcURL: "https://cut-link.netlify",
+    srcURL: "",
   },
   {
     title: "MindMate",
@@ -933,7 +933,7 @@ const projectData = [
     description:
       "MindMate is a web application that provides mental health solutions using artificial intelligence powered by OpenAI. It is designed to help individuals struggling with mental health issues to improve their well-being and overall quality of life. The app provides personalized and confidential support to users by analyzing their symptoms, emotions, and behavior. MindMate uses advanced algorithms to identify patterns in user data and provide them with tailored recommendations for managing their mental health.",
     techStack: ["Next.js", "React", "Node.js"],
-    srcURL: "https://mind-mate.vercel",
+    srcURL: "",
   },
   {
     title: "GitTrack",
@@ -942,7 +942,7 @@ const projectData = [
     description:
       "GitTrack - an innovative web application designed to empower GitHub users with powerful network analysis tools. With GitTrack, you can effortlessly track and analyze your followers, identifying those who are not reciprocating the follow. Take control of your GitHub presence, strengthen your connections, and optimize your network. Gain valuable insights and make informed decisions to build a strong and engaged community.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    srcURL: "https://gittrack.vercel",
+    srcURL: "",
   },
   {
     title: "My Battery",
@@ -952,7 +952,7 @@ const projectData = [
     description:
       "My Battery is a simple and minimalistic web application that displays your battery percentage, charging status, and whether the battery is low or full. It's important to note that this is a website-based application.",
     techStack: ["JavaScript", "HTML", "Tailwind CSS", "CSS"],
-    srcURL: "https://mybattery.vercel",
+    srcURL: "",
   },
   {
     title: "SysInfo",
@@ -961,7 +961,7 @@ const projectData = [
     description:
       "SysInfo is a web based terminal emulator which you can run basic commands like help, clear, battery, weather and etc.",
     techStack: ["JavaScript", "HTML", "CSS", "Tailwind CSS"],
-    srcURL: "https://sys-info.verce",
+    srcURL: "",
   },
   {
     title: "Project Title",
