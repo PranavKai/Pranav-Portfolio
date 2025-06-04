@@ -933,7 +933,7 @@ const projectData = [
     subTitle: "Here you have full control over your links.",
     thumbnail: "../img/thumbnails/cutlink-thumbnail.png",
     description:
-      "CutLink is a modern and user-friendly web application built with React and Material UI. Our platform offers a complete solution for link shortening. With CutLink, you can create short, branded links that are easy to share. Try CutLink today and experience the power of a smarter link shortning platform!",
+      "CutLink is a modern and user-friendly web application built with React and Material UI. Our platform offers a complete solution for link shortening. With CutLink, you can create short, branded links that are easy to share. Try CutLink today and experience the power of a smarter link shortening platform!",
     techStack: ["React", "MUI"],
     srcURL: "",
   },
