@@ -1007,7 +1007,9 @@ const projectData = [
   // Add more objects for additional projectData here
 ];
 
-loadContent(projectData);
+if (!(typeof process !== 'undefined' && process.env.JEST_WORKER_ID)) {
+  loadContent(projectData);
+}
 
 function loadContent(projectData) {
   const buildTemplate = (template, data) => {
@@ -1169,3 +1171,7 @@ async function getRepoList() {
 // console.log(repoList[i].name);
 // }
 // })();
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports.loadContent = loadContent;
+}
