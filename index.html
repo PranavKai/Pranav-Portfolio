@@ -168,6 +168,13 @@
             <li class="nav-card-item">
               <a
                 class="nav-link js-scroll-trigger noselect"
+                onclick="toBlog()"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-card-item">
+              <a
+                class="nav-link js-scroll-trigger noselect"
                 onclick="toMilestones()"
                 >Milestones</a
               >
@@ -547,12 +554,33 @@
             d="M 0,400 C 0,400 0,200 0,200 C 63.06410256410257,245.6948717948718 126.12820512820514,291.3897435897436 219,265 C 311.87179487179486,238.6102564102564 434.551282051282,140.1358974358974 510,145 C 585.448717948718,149.8641025641026 613.6666666666666,258.0666666666667 679,266 C 744.3333333333334,273.9333333333333 846.7820512820515,181.59743589743587 939,167 C 1031.2179487179485,152.40256410256413 1113.2051282051282,215.54358974358976 1195,234 C 1276.7948717948718,252.45641025641024 1358.397435897436,226.2282051282051 1440,200 C 1440,200 1440,400 1440,400 Z"
             stroke="none"
             stroke-width="0"
-            fill="#222222ff"
-            class="transition-all duration-300 ease-in-out delay-150 path-0"
-          ></path>
-        </svg>
-        <!-- Special Milestones -->
-        <section id="milestones" class="text-center">
+          fill="#222222ff"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+      <!-- Blog -->
+      <section id="blog">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+          <h6 class="section-title">Blog</h6>
+          <div class="blog-entries">
+            <div class="blog-entry">
+              <h3 class="blog-title">Building a Modern Portfolio</h3>
+              <p class="blog-content">
+                Tips and tricks for creating a fast and responsive web
+                portfolio using modern frameworks.
+              </p>
+            </div>
+            <div class="blog-entry">
+              <h3 class="blog-title">Why I Love Full‑Stack Development</h3>
+              <p class="blog-content">
+                A short story about my journey from design to deployment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Special Milestones -->
+      <section id="milestones" class="text-center">
           <div class="container" data-aos="fade-up" data-aos-duration="1000">
             <h6 class="section-title">Special Milestones</h6>
             <div class="milestones">
@@ -747,6 +775,9 @@
                         </li>
                         <li>
                           <a onclick="toprojects()"> Projects </a>
+                        </li>
+                        <li>
+                          <a onclick="toBlog()"> Blog </a>
                         </li>
                         <li>
                           <a onclick="toMilestones()"> Milestones </a>
