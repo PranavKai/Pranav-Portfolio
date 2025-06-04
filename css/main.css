@@ -2031,3 +2031,30 @@ footer .support ul li a:hover {
     color: #68d372;
   }
 }
+
+#blog {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  color: #222222;
+}
+
+.blog-entries {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.blog-entry {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.blog-title {
+  margin-bottom: 0.5rem;
+  color: #222222;
+}
+
+.blog-content {
+  margin: 0;
+}

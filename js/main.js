@@ -38,6 +38,18 @@ function toProjects() {
   });
 }
 
+function toBlog() {
+  var element = document.getElementById("blog");
+  var headerOffset = 85;
+  var elementPosition = element.getBoundingClientRect().top;
+  var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth",
+  });
+}
+
 function toSkills() {
   var element = document.getElementById("skills");
   var headerOffset = 85;
@@ -961,6 +973,15 @@ const projectData = [
     description:
       "SysInfo is a web based terminal emulator which you can run basic commands like help, clear, battery, weather and etc.",
     techStack: ["JavaScript", "HTML", "CSS", "Tailwind CSS"],
+    srcURL: "",
+  },
+  {
+    title: "Portfolio Revamp",
+    subTitle: "New look with additional blog section",
+    thumbnail: "../img/projects-default.jpg",
+    description:
+      "This project showcases the updated design of my portfolio website, featuring a fresh blog section and improved navigation.",
+    techStack: ["HTML", "CSS", "JavaScript"],
     srcURL: "",
   },
   {
