@@ -2058,3 +2058,27 @@ footer .support ul li a:hover {
 .blog-content {
   margin: 0;
 }
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: #ffffff;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: #68d372;
+}
+
+/* Light mode */
+body.light-mode {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+body.light-mode img,
+body.light-mode video {
+  filter: invert(1) hue-rotate(180deg);
+}

@@ -1169,3 +1169,28 @@ async function getRepoList() {
 // console.log(repoList[i].name);
 // }
 // })();
+
+// Theme toggle
+function toggleTheme() {
+  const body = document.body;
+  body.classList.toggle("light-mode");
+  const isLight = body.classList.contains("light-mode");
+  localStorage.setItem("theme", isLight ? "light" : "dark");
+  const icon = document.querySelector("#theme-toggle i");
+  if (icon) {
+    icon.classList.toggle("fa-moon", !isLight);
+    icon.classList.toggle("fa-sun", isLight);
+  }
+}
+
+(function () {
+  const saved = localStorage.getItem("theme");
+  if (saved === "light") {
+    document.body.classList.add("light-mode");
+  }
+  const icon = document.querySelector("#theme-toggle i");
+  if (icon && document.body.classList.contains("light-mode")) {
+    icon.classList.remove("fa-moon");
+    icon.classList.add("fa-sun");
+  }
+})();
